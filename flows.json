@@ -1931,6 +1931,8 @@
         ],
         "seg1": "",
         "seg2": "",
+        "diff": false,
+        "className": "",
         "x": 645.111083984375,
         "y": 114.11111450195312,
         "wires": []
@@ -1947,7 +1949,7 @@
         "gtype": "gage",
         "title": "Memory free",
         "label": "%",
-        "format": "{{parseInt(value)}}",
+        "format": "{{value}}",
         "min": 0,
         "max": "100",
         "colors": [
