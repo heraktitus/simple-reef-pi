@@ -188,15 +188,6 @@
         "className": ""
     },
     {
-        "id": "b161a99f.5ac368",
-        "type": "ui_group",
-        "name": "Actions",
-        "tab": "2d0021c.706acde",
-        "order": 4,
-        "disp": true,
-        "width": "6"
-    },
-    {
         "id": "2d0021c.706acde",
         "type": "ui_tab",
         "name": "RPi Control",
