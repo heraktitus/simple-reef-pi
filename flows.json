@@ -1892,11 +1892,12 @@
         "id": "c0ffe68.afd6e18",
         "type": "exec",
         "z": "9cf3a6d.1104258",
-        "command": "free | grep Mem | awk '{print 100*($4+$6+$7)/$2}'",
+        "command": "free | grep Mem | awk '{print $3/$4*100}'",
         "addpay": false,
         "append": "",
         "useSpawn": "",
         "timer": "",
+        "winHide": false,
         "name": "Free Memory",
         "x": 325.2222099304199,
         "y": 190.55557250976562,
@@ -1956,6 +1957,8 @@
         ],
         "seg1": "",
         "seg2": "",
+        "diff": false,
+        "className": "",
         "x": 663.3333320617676,
         "y": 176.55556392669678,
         "wires": []
@@ -1969,6 +1972,7 @@
         "append": "",
         "useSpawn": "",
         "timer": "",
+        "winHide": false,
         "name": "Disk Usage",
         "x": 322.88884353637695,
         "y": 258.2222442626953,
@@ -2013,7 +2017,11 @@
         "name": "",
         "func": "var re = /([0-9]{2})%/\nvar idx = msg.payload.search(re);\nvar str = msg.payload;\nif (idx >=0) {\n    str = msg.payload.substring(idx, idx + 2);\n}\nmsg.payload = str;\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
         "x": 470.66661071777344,
         "y": 244.88890171051025,
         "wires": [
@@ -2027,9 +2035,19 @@
         "type": "inject",
         "z": "9cf3a6d.1104258",
         "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
         "repeat": "60",
         "crontab": "",
         "once": true,
+        "onceDelay": "",
         "topic": "",
         "payload": "",
         "payloadType": "date",
