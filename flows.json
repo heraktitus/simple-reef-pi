@@ -1581,80 +1581,6 @@
         "wires": []
     },
     {
-        "id": "e868c187dc81b77c",
-        "type": "shutdown",
-        "z": "28754bc7c76dce38",
-        "name": "",
-        "x": 660,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "cb3eeb9c8374a2b3",
-        "type": "restart",
-        "z": "28754bc7c76dce38",
-        "name": "",
-        "x": 650,
-        "y": 1060,
-        "wires": []
-    },
-    {
-        "id": "78a5b99250718c05",
-        "type": "ui_button",
-        "z": "28754bc7c76dce38",
-        "name": "",
-        "group": "ebf20ffc9090a9e6",
-        "order": 8,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Shutdown",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 460,
-        "y": 1000,
-        "wires": [
-            [
-                "e868c187dc81b77c"
-            ]
-        ]
-    },
-    {
-        "id": "16614b00a0e8eb2c",
-        "type": "ui_button",
-        "z": "28754bc7c76dce38",
-        "name": "",
-        "group": "ebf20ffc9090a9e6",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Restart",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 460,
-        "y": 1060,
-        "wires": [
-            [
-                "cb3eeb9c8374a2b3"
-            ]
-        ]
-    },
-    {
         "id": "d4feb199.b898b",
         "type": "ui_gauge",
         "z": "9cf3a6d.1104258",
@@ -1728,7 +1654,7 @@
         "type": "function",
         "z": "9cf3a6d.1104258",
         "name": "",
-        "func": "str = msg.payload\nmsg.payload = str.substring(5,9);\nreturn msg;",
+        "func": "str = msg.payload;\nmsg.payload = str.substring(5,9);\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 2,
