@@ -1703,6 +1703,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
         "x": 757,
         "y": 1293,
         "wires": []
@@ -1824,6 +1826,7 @@
         "type": "vcgencmd",
         "z": "28754bc7c76dce38",
         "name": "Throttling",
+        "fullPath": "/opt/vc/bin/vcgencmd",
         "command": "get_throttled",
         "codec": "H264",
         "clock": "core",
