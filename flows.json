@@ -1,1 +1,24 @@
-[]
+[
+    {
+        "id": "7446bbf88fdd4169",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "de4a660a9f40657a",
+        "type": "link call",
+        "z": "7446bbf88fdd4169",
+        "name": "",
+        "links": [],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 490,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    }
+]
