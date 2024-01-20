@@ -177,13 +177,6 @@
         "hidden": false
     },
     {
-        "id": "b6c6f589.8e06a",
-        "type": "ui_tab",
-        "name": "Test",
-        "icon": "dashboard",
-        "order": 1
-    },
-    {
         "id": "ebf20ffc9090a9e6",
         "type": "ui_group",
         "name": "Raspberry",
@@ -193,27 +186,6 @@
         "width": "6",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "14bc5267.4d798e",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "test.mosquitto.org",
-        "port": "1883",
-        "clientid": "",
-        "usetls": false,
-        "compatmode": true,
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "raspberry_do_gama_alive",
-        "birthQos": "0",
-        "birthRetain": "true",
-        "birthPayload": "Raspberry ativo",
-        "closeTopic": "",
-        "closePayload": "",
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": ""
     },
     {
         "id": "f7e9c4646d9eb44c",
