@@ -195,33 +195,6 @@
         "order": 1
     },
     {
-        "id": "7853403.230cdc",
-        "type": "ui_group",
-        "name": "CPU Load",
-        "tab": "e6013c6f.69328",
-        "order": 2,
-        "disp": true,
-        "width": "6"
-    },
-    {
-        "id": "1d1da0fc.6ab84f",
-        "type": "ui_group",
-        "name": "Memory",
-        "tab": "e6013c6f.69328",
-        "order": 3,
-        "disp": true,
-        "width": "6"
-    },
-    {
-        "id": "a9912d64.97094",
-        "type": "ui_group",
-        "name": "System Information",
-        "tab": "e6013c6f.69328",
-        "order": 1,
-        "disp": true,
-        "width": "6"
-    },
-    {
         "id": "e6013c6f.69328",
         "type": "ui_tab",
         "name": "System",
