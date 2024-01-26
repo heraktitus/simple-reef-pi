@@ -586,7 +586,7 @@
         "name": "",
         "pin": "16",
         "set": true,
-        "level": "1",
+        "level": "0",
         "freq": "",
         "out": "out",
         "bcm": true,
