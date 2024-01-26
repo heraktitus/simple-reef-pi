@@ -1549,7 +1549,7 @@
         "label": "units",
         "format": "{{value}}",
         "min": 0,
-        "max": "1",
+        "max": "2",
         "colors": [
             "#00b500",
             "#e6e600",
