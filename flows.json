@@ -758,8 +758,8 @@
         "seg2": "30",
         "diff": false,
         "className": "",
-        "x": 1260,
-        "y": 740,
+        "x": 1200,
+        "y": 960,
         "wires": []
     },
     {
@@ -1262,7 +1262,8 @@
                 "fea2c1de254bf319",
                 "674f6ee1960b1d01",
                 "57491fb5d8d53698",
-                "7bbb2ebd51c7f4e6"
+                "7bbb2ebd51c7f4e6",
+                "38fec74c86f74320"
             ]
         ]
     },
@@ -1457,7 +1458,7 @@
         "checkall": "false",
         "repair": false,
         "outputs": 1,
-        "x": 750,
+        "x": 950,
         "y": 420,
         "wires": [
             [
@@ -1527,8 +1528,8 @@
         "debounce": "25",
         "read": true,
         "bcm": true,
-        "x": 1140,
-        "y": 840,
+        "x": 1080,
+        "y": 1060,
         "wires": [
             [
                 "64cf107392d602e3"
@@ -1559,8 +1560,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1410,
-        "y": 840,
+        "x": 1350,
+        "y": 1060,
         "wires": []
     },
     {
@@ -1576,8 +1577,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 780,
+        "x": 1360,
+        "y": 1000,
         "wires": []
     },
     {
@@ -1591,8 +1592,8 @@
         "freq": "",
         "out": "out",
         "bcm": true,
-        "x": 1740,
-        "y": 560,
+        "x": 1760,
+        "y": 580,
         "wires": []
     },
     {
@@ -1606,8 +1607,8 @@
         "freq": "",
         "out": "out",
         "bcm": true,
-        "x": 1740,
-        "y": 620,
+        "x": 1760,
+        "y": 640,
         "wires": []
     },
     {
@@ -1621,8 +1622,8 @@
         "freq": "",
         "out": "out",
         "bcm": true,
-        "x": 1740,
-        "y": 680,
+        "x": 1760,
+        "y": 700,
         "wires": []
     },
     {
@@ -1636,9 +1637,97 @@
         "freq": "",
         "out": "out",
         "bcm": true,
-        "x": 1740,
-        "y": 740,
+        "x": 1760,
+        "y": 760,
         "wires": []
+    },
+    {
+        "id": "857ad601a44fbf37",
+        "type": "ui_switch",
+        "z": "28754bc7c76dce38",
+        "name": "",
+        "label": "KafaMotoru",
+        "tooltip": "",
+        "group": "1e33a91c420cb766",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1390,
+        "y": 680,
+        "wires": [
+            [
+                "7d231d5089d13124"
+            ]
+        ]
+    },
+    {
+        "id": "7d231d5089d13124",
+        "type": "change",
+        "z": "28754bc7c76dce38",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::data6",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1580,
+        "y": 680,
+        "wires": [
+            [
+                "15c1f521633ee2b4"
+            ]
+        ]
+    },
+    {
+        "id": "38fec74c86f74320",
+        "type": "change",
+        "z": "28754bc7c76dce38",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "#:(file)::data6",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 680,
+        "wires": [
+            [
+                "857ad601a44fbf37"
+            ]
+        ]
     },
     {
         "id": "d4feb199.b898b",
