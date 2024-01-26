@@ -584,7 +584,7 @@
         "type": "rpi-gpio out",
         "z": "28754bc7c76dce38",
         "name": "",
-        "pin": "26",
+        "pin": "16",
         "set": true,
         "level": "1",
         "freq": "",
@@ -1616,14 +1616,14 @@
         "type": "rpi-gpio out",
         "z": "28754bc7c76dce38",
         "name": "",
-        "pin": "16",
+        "pin": "26",
         "set": true,
-        "level": "0",
+        "level": "1",
         "freq": "",
         "out": "out",
         "bcm": true,
         "x": 1760,
-        "y": 560,
+        "y": 960,
         "wires": []
     },
     {
@@ -1633,12 +1633,12 @@
         "name": "",
         "pin": "12",
         "set": true,
-        "level": "1",
+        "level": "0",
         "freq": "",
         "out": "out",
         "bcm": true,
         "x": 1760,
-        "y": 780,
+        "y": 560,
         "wires": []
     },
     {
@@ -1698,7 +1698,7 @@
         "y": 560,
         "wires": [
             [
-                "764f43d6ca4a7d4e"
+                "15c1f521633ee2b4"
             ]
         ]
     },
