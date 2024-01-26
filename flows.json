@@ -437,7 +437,7 @@
         "type": "rpi-gpio out",
         "z": "28754bc7c76dce38",
         "name": "",
-        "pin": "20",
+        "pin": "16",
         "set": true,
         "level": "1",
         "freq": "",
