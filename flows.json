@@ -987,20 +987,6 @@
         ]
     },
     {
-        "id": "a9ce93ec96496049",
-        "type": "remote-access",
-        "z": "28754bc7c76dce38",
-        "confignode": "19030cf42088a4b0",
-        "name": "",
-        "verbose": 0,
-        "x": 160,
-        "y": 40,
-        "wires": [
-            [],
-            []
-        ]
-    },
-    {
         "id": "b99441d5cd3cb3ed",
         "type": "file in",
         "z": "28754bc7c76dce38",
