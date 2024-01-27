@@ -1854,8 +1854,8 @@
         ],
         "seg1": "35",
         "seg2": "60",
-        "x": 683,
-        "y": 33,
+        "x": 770,
+        "y": 20,
         "wires": []
     },
     {
@@ -1909,12 +1909,12 @@
         "func": "var str = null;\nvar msg.payload = null;\nstr = msg.payload;\nmsg.payload = str.substring(5, 9);\nreturn msg;",
         "outputs": 1,
         "timeout": "",
-        "noerr": 3,
+        "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 471.888858795166,
-        "y": 33.00000190734863,
+        "x": 520,
+        "y": 40,
         "wires": [
             [
                 "d4feb199.b898b",
@@ -2047,8 +2047,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 683.9999389648438,
-        "y": 72.66667175292969,
+        "x": 770,
+        "y": 60,
         "wires": [
             []
         ]
