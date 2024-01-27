@@ -264,6 +264,16 @@
         "height": "6"
     },
     {
+        "id": "463a92dbf979e2e1",
+        "type": "ui_spacer",
+        "z": "28754bc7c76dce38",
+        "name": "spacer",
+        "group": "33ce40a55ca36c12",
+        "order": 2,
+        "width": "1",
+        "height": "6"
+    },
+    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
@@ -1527,7 +1537,7 @@
         "z": "28754bc7c76dce38",
         "name": "",
         "group": "33ce40a55ca36c12",
-        "order": 3,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "gage",
