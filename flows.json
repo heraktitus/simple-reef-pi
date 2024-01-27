@@ -1739,7 +1739,7 @@
         "sensorid": "28-3ce104577c91",
         "timer": "1",
         "repeat": true,
-        "x": 400,
+        "x": 380,
         "y": 40,
         "wires": [
             [
@@ -2202,8 +2202,8 @@
         "label": "IP Address",
         "format": "{{value.substring(0, value.indexOf(\" \"))}}",
         "layout": "col-center",
-        "x": 661.555591583252,
-        "y": 430.8889102935791,
+        "x": 670,
+        "y": 440,
         "wires": []
     },
     {
@@ -2241,29 +2241,10 @@
         "y": 446.06709480285645,
         "wires": [
             [
-                "b1e5e669.f1fd48",
                 "620c2ccf.7c7584"
             ],
             [],
             []
         ]
-    },
-    {
-        "id": "b1e5e669.f1fd48",
-        "type": "mqtt out",
-        "z": "9cf3a6d.1104258",
-        "name": "Send IP thru MQTT",
-        "topic": "raspberrypi3_ip_gama",
-        "qos": "0",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "14bc5267.4d798e",
-        "x": 680.6859703063965,
-        "y": 380.34489250183105,
-        "wires": []
     }
 ]
