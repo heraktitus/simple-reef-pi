@@ -308,7 +308,8 @@
         "y": 120,
         "wires": [
             [
-                "ab1af15b8ee25b97"
+                "ab1af15b8ee25b97",
+                "5c095a193ac37840"
             ]
         ]
     },
@@ -762,8 +763,7 @@
         "wires": [
             [
                 "2290f60df45485cb",
-                "d637b62dc855961f",
-                "5c095a193ac37840"
+                "d637b62dc855961f"
             ]
         ]
     },
@@ -1736,7 +1736,7 @@
         "z": "28754bc7c76dce38",
         "name": "Sicaklik Sump",
         "topic": "",
-        "sensorid": "28-3ce10457472e",
+        "sensorid": "not found.",
         "timer": "30",
         "repeat": true,
         "x": 140,
