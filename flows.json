@@ -1776,6 +1776,25 @@
         "wires": []
     },
     {
+        "id": "b2ec4add07d9de21",
+        "type": "inject",
+        "z": "28754bc7c76dce38",
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "5c095a193ac37840"
+            ]
+        ]
+    },
+    {
         "id": "d4feb199.b898b",
         "type": "ui_gauge",
         "z": "9cf3a6d.1104258",
