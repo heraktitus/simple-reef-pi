@@ -301,15 +301,14 @@
         "z": "28754bc7c76dce38",
         "name": "Sicaklik",
         "topic": "",
-        "sensorid": "28-3ce104577c91",
+        "sensorid": "not found.",
         "timer": "10",
         "repeat": true,
         "x": 120,
         "y": 120,
         "wires": [
             [
-                "ab1af15b8ee25b97",
-                "5c095a193ac37840"
+                "ab1af15b8ee25b97"
             ]
         ]
     },
@@ -763,7 +762,8 @@
         "wires": [
             [
                 "2290f60df45485cb",
-                "d637b62dc855961f"
+                "d637b62dc855961f",
+                "5c095a193ac37840"
             ]
         ]
     },
