@@ -2553,7 +2553,7 @@
         "format": "{{msg.size}} kb",
         "layout": "row-spread",
         "x": 1080,
-        "y": 520,
+        "y": 540,
         "wires": []
     },
     {
