@@ -204,27 +204,6 @@
         "collapse": false
     },
     {
-        "id": "14bc5267.4d798e",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "test.mosquitto.org",
-        "port": "1883",
-        "clientid": "",
-        "usetls": false,
-        "compatmode": true,
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "raspberry_do_gama_alive",
-        "birthQos": "0",
-        "birthRetain": "true",
-        "birthPayload": "Raspberry ativo",
-        "closeTopic": "",
-        "closePayload": "",
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": ""
-    },
-    {
         "id": "ad4a1223.94ae8",
         "type": "ui_tab",
         "z": "9cf3a6d.1104258",
