@@ -2256,7 +2256,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "5",
+        "repeat": "2",
         "crontab": "",
         "once": true,
         "onceDelay": "",
