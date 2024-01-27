@@ -184,12 +184,6 @@
         "hidden": false
     },
     {
-        "id": "e6013c6f.69328",
-        "type": "ui_tab",
-        "name": "System",
-        "icon": "computer"
-    },
-    {
         "id": "9cb4bc4d.96552",
         "type": "ui_group",
         "name": "System",
