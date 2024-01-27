@@ -235,15 +235,6 @@
         "className": ""
     },
     {
-        "id": "e16e06ca.f38438",
-        "type": "ui_group",
-        "name": "Frame Statistics",
-        "tab": "7af2d9c8.0a9148",
-        "order": 2,
-        "disp": true,
-        "width": "6"
-    },
-    {
         "id": "7af2d9c8.0a9148",
         "type": "ui_tab",
         "name": "RTSP",
