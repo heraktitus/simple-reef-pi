@@ -1906,7 +1906,7 @@
         "type": "function",
         "z": "9cf3a6d.1104258",
         "name": "",
-        "func": "str = msg.payload;\nmsg.payload = str.substring(5,9);\nreturn msg;",
+        "func": "var str = null;\nvar msg = null;\nstr = msg.payload;\nmsg.payload = str.substring(5, 9);\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 2,
