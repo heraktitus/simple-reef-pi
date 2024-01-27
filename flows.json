@@ -170,7 +170,7 @@
         "type": "ui_tab",
         "name": "Setup Temp",
         "icon": "",
-        "order": 2,
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -179,7 +179,7 @@
         "type": "ui_tab",
         "name": "Setup Light&Switches",
         "icon": "",
-        "order": 3,
+        "order": 5,
         "disabled": false,
         "hidden": false
     },
@@ -230,9 +230,18 @@
         "z": "9cf3a6d.1104258",
         "name": "Raspbery PI (Control Panel)",
         "icon": "dashboard",
-        "order": 1,
+        "order": 3,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "b9a07e3f9c2afc50",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "9cef454925c5b513",
+        "order": 2,
+        "disp": true,
+        "width": 6
     },
     {
         "id": "f7e9c4646d9eb44c",
