@@ -2256,7 +2256,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "2",
+        "repeat": "5",
         "crontab": "",
         "once": true,
         "onceDelay": "",
@@ -2496,7 +2496,9 @@
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
+        "resendOnRefresh": false,
         "templateScope": "local",
+        "className": "",
         "x": 1066,
         "y": 290.7500009536743,
         "wires": [
