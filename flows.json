@@ -254,6 +254,16 @@
         "height": "6"
     },
     {
+        "id": "9cc0c43910b79c7a",
+        "type": "ui_spacer",
+        "z": "28754bc7c76dce38",
+        "name": "spacer",
+        "group": "416f4f1d5967d349",
+        "order": 3,
+        "width": "1",
+        "height": "6"
+    },
+    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
