@@ -154,18 +154,6 @@
         "className": ""
     },
     {
-        "id": "19030cf42088a4b0",
-        "type": "remote-config",
-        "name": "Node-RED UI",
-        "host": "100.117.151.2",
-        "protocol": "http",
-        "port": "1880",
-        "baseurl": "/ui",
-        "instancehash": "u24cjp9jap1ico8ytieu3anp9utyt0njfw82svmsvot97y9ivw04ce6ij7dinzfd",
-        "server": "nodered02.remote-red.com",
-        "region": "de"
-    },
-    {
         "id": "82955e39e4353dc9",
         "type": "ui_tab",
         "name": "Setup Temp",
