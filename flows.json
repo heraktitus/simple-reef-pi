@@ -1690,7 +1690,7 @@
         "y": 40,
         "wires": [
             [
-                "4ebd44295da9413d"
+                "0b60733ca4e60d85"
             ]
         ]
     },
@@ -1804,6 +1804,33 @@
         "wires": [
             [
                 "ab1af15b8ee25b97"
+            ]
+        ]
+    },
+    {
+        "id": "0b60733ca4e60d85",
+        "type": "change",
+        "z": "28754bc7c76dce38",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload-1",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 40,
+        "wires": [
+            [
+                "4ebd44295da9413d"
             ]
         ]
     },
