@@ -1737,7 +1737,7 @@
         "name": "Sicaklik Sump",
         "topic": "",
         "sensorid": "28-3ce10457472e",
-        "timer": "5",
+        "timer": "30",
         "repeat": true,
         "x": 140,
         "y": 40,
