@@ -2524,9 +2524,9 @@
         "type": "watch",
         "z": "aa4a0b1ba24c85ef",
         "name": "",
-        "files": "/home/wago/node-red-static/grab.jpg",
+        "files": "/home/norg/Pictures/grab.jpg",
         "recursive": "",
-        "x": 790,
+        "x": 770,
         "y": 520,
         "wires": [
             [
