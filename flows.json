@@ -2275,7 +2275,7 @@
         "id": "31b99d4b.895742",
         "type": "exec",
         "z": "aa4a0b1ba24c85ef",
-        "command": "ffmpeg -y -i rtsp://selcuk:123qweasd@192.168.0.56:554/1/h264major -vframes 1 -f image2pipe -vcodec png -",
+        "command": "ffmpeg -y -i rtsp://selcuk:123qweasd@192.168.0.56:554/stream1 -vframes 1 -f image2pipe -vcodec png -",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
