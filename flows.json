@@ -680,17 +680,17 @@
         "eventOptions": [
             {
                 "label": "On",
-                "event": "true"
+                "event": "false"
             },
             {
                 "label": "Off",
-                "event": "false"
+                "event": "true"
             }
         ],
         "sendTopic": false,
         "lat": "41",
         "lon": "28",
-        "customContextStore": "memoryOnly",
+        "customContextStore": "file",
         "outputs": 4,
         "order": 6,
         "width": "6",
