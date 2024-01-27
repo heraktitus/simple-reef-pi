@@ -256,16 +256,6 @@
         "width": "6"
     },
     {
-        "id": "675036dd.603328",
-        "type": "ui_group",
-        "name": "Frame Grab",
-        "tab": "7af2d9c8.0a9148",
-        "order": 1,
-        "disp": true,
-        "width": "8",
-        "collapse": false
-    },
-    {
         "id": "7af2d9c8.0a9148",
         "type": "ui_tab",
         "name": "RTSP",
