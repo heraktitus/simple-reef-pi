@@ -346,7 +346,7 @@
         "myrawdate": true,
         "mypm": true,
         "x": 310,
-        "y": 140,
+        "y": 160,
         "wires": [
             [
                 "135dc01048e8d175"
@@ -657,7 +657,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 450,
-        "y": 140,
+        "y": 160,
         "wires": []
     },
     {
@@ -1751,6 +1751,51 @@
                 "857ad601a44fbf37"
             ]
         ]
+    },
+    {
+        "id": "503219f62a0e0b42",
+        "type": "sensor-ds18b20",
+        "z": "28754bc7c76dce38",
+        "name": "Sicaklik Sump",
+        "topic": "",
+        "sensorid": "28-0415915b7eff",
+        "timer": "1",
+        "repeat": true,
+        "x": 400,
+        "y": 40,
+        "wires": [
+            [
+                "7387b7ee35c9c767"
+            ]
+        ]
+    },
+    {
+        "id": "7387b7ee35c9c767",
+        "type": "ui_gauge",
+        "z": "28754bc7c76dce38",
+        "name": "",
+        "group": "1e33a91c420cb766",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Sicaklık Sump",
+        "label": "",
+        "format": "{{value}} °C",
+        "min": "15",
+        "max": "37",
+        "colors": [
+            "#b30000",
+            "#00e604",
+            "#ca3838"
+        ],
+        "seg1": "26",
+        "seg2": "28",
+        "diff": false,
+        "className": "",
+        "x": 600,
+        "y": 40,
+        "wires": []
     },
     {
         "id": "d4feb199.b898b",
