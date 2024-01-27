@@ -1822,7 +1822,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 430,
+        "x": 390,
         "y": 40,
         "wires": [
             [
