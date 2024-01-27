@@ -671,8 +671,7 @@
         "devices": [
             "Lamba 1",
             "Lamba 2",
-            "Lamba 3",
-            "Lamba 4"
+            "Lamba 3"
         ],
         "singleOff": false,
         "onlySendChange": false,
@@ -692,7 +691,7 @@
         "lat": "41",
         "lon": "28",
         "customContextStore": "memoryOnly",
-        "outputs": 5,
+        "outputs": 4,
         "order": 6,
         "width": "6",
         "height": "6",
@@ -710,9 +709,6 @@
             ],
             [
                 "300c6ed3c8bebb45"
-            ],
-            [
-                "dbeaaa497d6c5cb6"
             ]
         ]
     },
@@ -1502,7 +1498,7 @@
         "checkall": "false",
         "repair": false,
         "outputs": 1,
-        "x": 950,
+        "x": 970,
         "y": 420,
         "wires": [
             [
