@@ -401,7 +401,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 730,
+        "x": 650,
         "y": 100,
         "wires": [
             [
@@ -1742,7 +1742,7 @@
         "y": 40,
         "wires": [
             [
-                "7387b7ee35c9c767"
+                "4ebd44295da9413d"
             ]
         ]
     },
@@ -1770,7 +1770,7 @@
         "seg2": "28",
         "diff": false,
         "className": "",
-        "x": 380,
+        "x": 760,
         "y": 40,
         "wires": []
     },
@@ -1791,6 +1791,45 @@
             [
                 "5c095a193ac37840"
             ]
+        ]
+    },
+    {
+        "id": "4ebd44295da9413d",
+        "type": "switch",
+        "z": "28754bc7c76dce38",
+        "name": "VeriKontrol",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "15",
+                "vt": "num",
+                "v2": "37",
+                "v2t": "num"
+            },
+            {
+                "t": "gt",
+                "v": "37",
+                "vt": "num"
+            },
+            {
+                "t": "lt",
+                "v": "15",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 430,
+        "y": 40,
+        "wires": [
+            [
+                "7387b7ee35c9c767"
+            ],
+            [],
+            []
         ]
     },
     {
