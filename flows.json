@@ -2410,6 +2410,7 @@
         "name": "To get the #hi",
         "func": "msg.payload = {\n    text: \"Hi, This a test message for buttons, try selecting any option below.\", //String\n    footer: `I'm just a footer.`,   //String\n    headerType: 1,                  //keep it \"1\" only.\n    buttons: [                      // Array of buttons.\n        {buttonId: 'id1-string', buttonText: {displayText: 'Simple Reply'}, type: 1},\n        {buttonId: 'id2-tempMessage', buttonText: {displayText: 'Temp. Button'}, type: 1},\n        {buttonId: 'listMessage-id3', buttonText: {displayText: 'List Message'}, type: 1}\n    ]\n}\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -2430,8 +2431,8 @@
         "name": "Chats Out",
         "whatsappLink": "45549bbfeb38499a",
         "number": "",
-        "x": 700,
-        "y": 220,
+        "x": 1120,
+        "y": 240,
         "wires": []
     },
     {
@@ -2461,8 +2462,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 260,
-        "y": 320,
+        "x": 680,
+        "y": 340,
         "wires": [
             [
                 "351cb37bbcb7d1dc"
@@ -2488,8 +2489,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 690,
-        "y": 400,
+        "x": 1110,
+        "y": 420,
         "wires": []
     },
     {
@@ -2503,8 +2504,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 280,
+        "x": 900,
+        "y": 300,
         "wires": [
             [
                 "b6f984dbcae75a69",
@@ -2523,8 +2524,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
-        "y": 320,
+        "x": 890,
+        "y": 340,
         "wires": [
             [
                 "b6f984dbcae75a69",
@@ -2543,8 +2544,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
-        "y": 360,
+        "x": 890,
+        "y": 380,
         "wires": [
             [
                 "b6f984dbcae75a69",
@@ -2578,8 +2579,20 @@
         "z": "595bb93a55a7385e",
         "name": "Reply as per button response",
         "info": "Connect with whatsapp Lite (socket client) only",
-        "x": 400,
-        "y": 240,
+        "x": 820,
+        "y": 260,
         "wires": []
+    },
+    {
+        "id": "9c16edcd34c0e9ba",
+        "type": "admin",
+        "z": "595bb93a55a7385e",
+        "name": "WA Admin",
+        "whatsappLink": "45549bbfeb38499a",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            []
+        ]
     }
 ]
