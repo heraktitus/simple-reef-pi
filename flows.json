@@ -273,24 +273,6 @@
         "height": "5"
     },
     {
-        "id": "0eb2ccd6004df3a3",
-        "type": "whatsappLink",
-        "cName": "whatsapp-web",
-        "name": "Web",
-        "clientType": "waSocketClient",
-        "onlineStatus": true,
-        "loopTime": "5"
-    },
-    {
-        "id": "529bd97bf4fbecf5",
-        "type": "whatsappLink",
-        "cName": "whatsapp-web",
-        "name": "Web",
-        "clientType": "waSocketClient",
-        "onlineStatus": true,
-        "loopTime": "5"
-    },
-    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
@@ -2588,7 +2570,7 @@
         "type": "admin",
         "z": "595bb93a55a7385e",
         "name": "WA Admin",
-        "whatsappLink": "0eb2ccd6004df3a3",
+        "whatsappLink": "",
         "x": 190,
         "y": 500,
         "wires": [
