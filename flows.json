@@ -2573,5 +2573,17 @@
         "x": 820,
         "y": 260,
         "wires": []
+    },
+    {
+        "id": "55cf8cf68e75a3ce",
+        "type": "admin",
+        "z": "595bb93a55a7385e",
+        "name": "WA Admin",
+        "whatsappLink": "0eb2ccd6004df3a3",
+        "x": 170,
+        "y": 500,
+        "wires": [
+            []
+        ]
     }
 ]
