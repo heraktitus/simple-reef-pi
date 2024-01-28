@@ -1938,7 +1938,7 @@
         "type": "function",
         "z": "9cf3a6d.1104258",
         "name": "",
-        "func": "var str = null;\nvar msg.payload = null;\nstr = msg.payload;\nmsg.payload = str.substring(5, 9);\nreturn msg;",
+        "func": "str = msg.payload;\nmsg.payload = str.substring(5, 9);\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
