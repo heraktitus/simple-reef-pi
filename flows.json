@@ -2352,8 +2352,8 @@
         "whatsappLink": "0eb2ccd6004df3a3",
         "whatsappLiteevent": "messages.upsert",
         "whatsappWebevent": "",
-        "x": 80,
-        "y": 180,
+        "x": 100,
+        "y": 360,
         "wires": [
             [
                 "b6b28a9e9b416545",
