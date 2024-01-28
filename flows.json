@@ -15,6 +15,14 @@
         "info": ""
     },
     {
+        "id": "40d389ca30318857",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "1e33a91c420cb766",
         "type": "ui_group",
         "name": "Sıcaklık",
@@ -272,6 +280,15 @@
         "order": 2,
         "width": "1",
         "height": "5"
+    },
+    {
+        "id": "db38db2c87cc6e90",
+        "type": "whatsappLink",
+        "cName": "whatsapp-web",
+        "name": "Web",
+        "clientType": "waWebClient",
+        "onlineStatus": true,
+        "loopTime": "5"
     },
     {
         "id": "f7e9c4646d9eb44c",
@@ -2333,6 +2350,18 @@
                 "620c2ccf.7c7584"
             ],
             [],
+            []
+        ]
+    },
+    {
+        "id": "a200c981d841695d",
+        "type": "admin",
+        "z": "40d389ca30318857",
+        "name": "WA Admin",
+        "whatsappLink": "db38db2c87cc6e90",
+        "x": 230,
+        "y": 200,
+        "wires": [
             []
         ]
     }
