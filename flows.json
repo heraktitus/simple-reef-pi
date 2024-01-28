@@ -282,6 +282,15 @@
         "loopTime": "5"
     },
     {
+        "id": "0eb2ccd6004df3a3",
+        "type": "whatsappLink",
+        "cName": "whatsapp-web",
+        "name": "Web",
+        "clientType": "waWebClient",
+        "onlineStatus": true,
+        "loopTime": "5"
+    },
+    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
@@ -2420,7 +2429,7 @@
         "type": "chats-out",
         "z": "595bb93a55a7385e",
         "name": "Chats Out",
-        "whatsappLink": "45549bbfeb38499a",
+        "whatsappLink": "0eb2ccd6004df3a3",
         "number": "",
         "x": 1120,
         "y": 240,
@@ -2573,17 +2582,5 @@
         "x": 820,
         "y": 260,
         "wires": []
-    },
-    {
-        "id": "9c16edcd34c0e9ba",
-        "type": "admin",
-        "z": "595bb93a55a7385e",
-        "name": "WA Admin",
-        "whatsappLink": "45549bbfeb38499a",
-        "x": 110,
-        "y": 300,
-        "wires": [
-            []
-        ]
     }
 ]
