@@ -243,15 +243,6 @@
         "className": ""
     },
     {
-        "id": "7af2d9c8.0a9148",
-        "type": "ui_tab",
-        "name": "RTSP",
-        "icon": "dashboard",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "f14e09cc9001f7ba",
         "type": "ui_spacer",
         "z": "28754bc7c76dce38",
@@ -288,6 +279,15 @@
         "name": "Web",
         "clientType": "waSocketClient",
         "onlineStatus": false,
+        "loopTime": "5"
+    },
+    {
+        "id": "4d916fff73904bfd",
+        "type": "whatsappLink",
+        "cName": "whatsapp-web",
+        "name": "Web",
+        "clientType": "waWebClient",
+        "onlineStatus": true,
         "loopTime": "5"
     },
     {
