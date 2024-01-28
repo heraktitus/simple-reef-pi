@@ -277,7 +277,16 @@
         "type": "whatsappLink",
         "cName": "whatsapp-web",
         "name": "Web",
-        "clientType": "waWebClient",
+        "clientType": "waSocketClient",
+        "onlineStatus": true,
+        "loopTime": "5"
+    },
+    {
+        "id": "529bd97bf4fbecf5",
+        "type": "whatsappLink",
+        "cName": "whatsapp-web",
+        "name": "Web",
+        "clientType": "waSocketClient",
         "onlineStatus": true,
         "loopTime": "5"
     },
@@ -2349,7 +2358,7 @@
         "type": "chats-in",
         "z": "595bb93a55a7385e",
         "name": "Chats In",
-        "whatsappLink": "0eb2ccd6004df3a3",
+        "whatsappLink": "",
         "whatsappLiteevent": "messages.upsert",
         "whatsappWebevent": "",
         "x": 100,
@@ -2420,7 +2429,7 @@
         "type": "chats-out",
         "z": "595bb93a55a7385e",
         "name": "Chats Out",
-        "whatsappLink": "0eb2ccd6004df3a3",
+        "whatsappLink": "",
         "number": "",
         "x": 1160,
         "y": 100,
@@ -2575,12 +2584,12 @@
         "wires": []
     },
     {
-        "id": "55cf8cf68e75a3ce",
+        "id": "1dac3ee830406a21",
         "type": "admin",
         "z": "595bb93a55a7385e",
         "name": "WA Admin",
         "whatsappLink": "0eb2ccd6004df3a3",
-        "x": 170,
+        "x": 190,
         "y": 500,
         "wires": [
             []
