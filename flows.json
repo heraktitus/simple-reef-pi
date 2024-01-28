@@ -265,6 +265,18 @@
         "height": "5"
     },
     {
+        "id": "47bbbda2952f7193",
+        "type": "ui-base",
+        "name": "UI Name",
+        "path": "/dashboard",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false
+    },
+    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
@@ -2342,6 +2354,19 @@
                 "620c2ccf.7c7584"
             ],
             [],
+            []
+        ]
+    },
+    {
+        "id": "13cbb9dd50611186",
+        "type": "ui-control",
+        "z": "9cf3a6d.1104258",
+        "name": "",
+        "ui": "47bbbda2952f7193",
+        "events": "all",
+        "x": 280,
+        "y": 640,
+        "wires": [
             []
         ]
     }
