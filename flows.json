@@ -2358,7 +2358,7 @@
         "type": "chats-in",
         "z": "595bb93a55a7385e",
         "name": "Chats In",
-        "whatsappLink": "45549bbfeb38499a",
+        "whatsappLink": "0eb2ccd6004df3a3",
         "whatsappLiteevent": "messages.upsert",
         "whatsappWebevent": "",
         "x": 80,
