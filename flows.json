@@ -2422,8 +2422,8 @@
         "name": "Chats Out",
         "whatsappLink": "0eb2ccd6004df3a3",
         "number": "",
-        "x": 1120,
-        "y": 240,
+        "x": 1160,
+        "y": 100,
         "wires": []
     },
     {
