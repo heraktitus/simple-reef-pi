@@ -2580,10 +2580,57 @@
         "z": "595bb93a55a7385e",
         "name": "WA Admin",
         "whatsappLink": "6cca5e6241be38ee",
-        "x": 190,
-        "y": 500,
+        "x": 330,
+        "y": 560,
         "wires": [
-            []
+            [
+                "5670c090a34af424"
+            ]
         ]
+    },
+    {
+        "id": "c85257281cc1ff98",
+        "type": "inject",
+        "z": "595bb93a55a7385e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 560,
+        "wires": [
+            [
+                "1dac3ee830406a21"
+            ]
+        ]
+    },
+    {
+        "id": "5670c090a34af424",
+        "type": "debug",
+        "z": "595bb93a55a7385e",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 500,
+        "wires": []
     }
 ]
