@@ -265,15 +265,6 @@
         "height": "5"
     },
     {
-        "id": "14cf22b1df16b488",
-        "type": "whatsappLink",
-        "cName": "whatsapp-web",
-        "name": "Web",
-        "clientType": "waSocketClient",
-        "onlineStatus": true,
-        "loopTime": "5"
-    },
-    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
