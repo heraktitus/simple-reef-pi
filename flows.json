@@ -282,15 +282,6 @@
         "loopTime": "5"
     },
     {
-        "id": "4d916fff73904bfd",
-        "type": "whatsappLink",
-        "cName": "whatsapp-web",
-        "name": "Web",
-        "clientType": "waWebClient",
-        "onlineStatus": true,
-        "loopTime": "5"
-    },
-    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
