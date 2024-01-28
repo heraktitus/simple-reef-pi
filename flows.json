@@ -274,6 +274,13 @@
         "height": "5"
     },
     {
+        "id": "b9b9b7424df58279",
+        "type": "light-scheduler-settings",
+        "name": "my settings",
+        "latitude": "38.883333",
+        "longitude": "-77"
+    },
+    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
