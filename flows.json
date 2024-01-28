@@ -277,6 +277,51 @@
         "showPathInSidebar": false
     },
     {
+        "id": "5b76f4e1200bf783",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#4a6068",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "270bd11002967882",
+        "type": "ui-page",
+        "name": "Page Name",
+        "ui": "47bbbda2952f7193",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "5b76f4e1200bf783",
+        "order": -1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "7d98e0c5e9fef03b",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "270bd11002967882",
+        "width": "6",
+        "height": "1",
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
@@ -2365,6 +2410,36 @@
         "ui": "47bbbda2952f7193",
         "events": "all",
         "x": 280,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "946f4f9275dde830",
+        "type": "ui-dropdown",
+        "z": "9cf3a6d.1104258",
+        "group": "7d98e0c5e9fef03b",
+        "name": "",
+        "label": "Select Option:",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 480,
         "y": 640,
         "wires": [
             []
