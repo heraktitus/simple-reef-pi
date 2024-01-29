@@ -2370,7 +2370,7 @@
         "command": "ssh -R heraktitus.serveo.net:80:localhost:1880 serveo.net",
         "addpay": "",
         "append": "",
-        "useSpawn": "false",
+        "useSpawn": "true",
         "timer": "",
         "winHide": false,
         "oldrc": false,
