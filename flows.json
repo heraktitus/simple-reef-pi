@@ -2362,5 +2362,74 @@
             [],
             []
         ]
+    },
+    {
+        "id": "c9c0c8b8726bc78c",
+        "type": "exec",
+        "z": "9cf3a6d.1104258",
+        "command": "ssh -R heraktitus.serveo.net:80:localhost:1880 serveo.net",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 430,
+        "y": 620,
+        "wires": [
+            [
+                "20fef6b6df7746aa"
+            ],
+            [
+                "20fef6b6df7746aa"
+            ],
+            [
+                "20fef6b6df7746aa"
+            ]
+        ]
+    },
+    {
+        "id": "20fef6b6df7746aa",
+        "type": "debug",
+        "z": "9cf3a6d.1104258",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "988f386ef514d6e4",
+        "type": "inject",
+        "z": "9cf3a6d.1104258",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 620,
+        "wires": [
+            []
+        ]
     }
 ]
