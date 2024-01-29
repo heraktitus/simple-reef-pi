@@ -283,6 +283,13 @@
         }
     },
     {
+        "id": "05c2242526b36b52",
+        "type": "ssh-conf",
+        "ssh": "",
+        "name": "",
+        "userlabel": ""
+    },
+    {
         "id": "f7e9c4646d9eb44c",
         "type": "sensor-ds18b20",
         "z": "28754bc7c76dce38",
