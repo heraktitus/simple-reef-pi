@@ -2401,48 +2401,5 @@
             [],
             []
         ]
-    },
-    {
-        "id": "13cbb9dd50611186",
-        "type": "ui-control",
-        "z": "9cf3a6d.1104258",
-        "name": "",
-        "ui": "47bbbda2952f7193",
-        "events": "all",
-        "x": 280,
-        "y": 640,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "946f4f9275dde830",
-        "type": "ui-dropdown",
-        "z": "9cf3a6d.1104258",
-        "group": "7d98e0c5e9fef03b",
-        "name": "",
-        "label": "Select Option:",
-        "tooltip": "",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 480,
-        "y": 640,
-        "wires": [
-            []
-        ]
     }
 ]
