@@ -2367,6 +2367,7 @@
         "id": "c9c0c8b8726bc78c",
         "type": "exec",
         "z": "9cf3a6d.1104258",
+        "d": true,
         "command": "ssh -R heraktitus.serveo.net:80:localhost:1880 serveo.net",
         "addpay": "",
         "append": "",
@@ -2404,34 +2405,5 @@
         "x": 800,
         "y": 620,
         "wires": []
-    },
-    {
-        "id": "988f386ef514d6e4",
-        "type": "inject",
-        "z": "9cf3a6d.1104258",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 110,
-        "y": 620,
-        "wires": [
-            [
-                "c9c0c8b8726bc78c"
-            ]
-        ]
     }
 ]
