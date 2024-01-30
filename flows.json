@@ -168,24 +168,6 @@
         "height": "5"
     },
     {
-        "id": "5b76f4e1200bf783",
-        "type": "ui-theme",
-        "name": "Theme Name",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#4a6068",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
-    },
-    {
         "id": "4525b99867ac5e98",
         "type": "ui_base",
         "theme": {
