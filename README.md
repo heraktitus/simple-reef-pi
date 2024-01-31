@@ -1,7 +1,7 @@
 Aqua2
 =====
 
-Salam
+Simple Aquarium Management
 
 ### About
 

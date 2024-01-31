@@ -1,7 +1,7 @@
 {
     "name": "Aqua2",
-    "description": "Salam",
-    "version": "0.0.1",
+    "description": "Simple Salt or FreshWater AquariumControl",
+    "version": "0.0.2",
     "dependencies": {},
     "node-red": {
         "settings": {
